@@ -8,9 +8,10 @@ Create an `Attendee` class that passes the tests in the spec file with the follo
   1. `display`: displays the ID number, full name, and ZIP code of the attendee in the following format:
     `17: Shannon Davis, 98122`
   1. `clean_zip`: ensures the ZIP code is a five-digit number; e.g. `12345`. A ZIP code that is:
-    * longer than five digits should be truncated to five digits; e.g. `'1234567'` -> `'12345'`
-    * shorter than five digits should be prepended with leading zeroes; e.g. `'123'` -> `'00123'`
-    * missing or non-existent ZIP code should be replaced with a default value; e.g. `nil` -> `'00000'`
+
+  * longer than five digits should be truncated to five digits; e.g. `'1234567'` -> `'12345'`
+  * shorter than five digits should be prepended with leading zeroes; e.g. `'123'` -> `'00123'`
+  * missing or non-existent ZIP code should be replaced with a default value; e.g. `nil` -> `'00000'`
 
 ### Part II
 
